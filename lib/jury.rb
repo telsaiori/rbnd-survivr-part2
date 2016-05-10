@@ -32,7 +32,7 @@ class Jury
     
     def announce_winner(vote_result)
         winner = vote_result.max_by{|key,value|value}.first
-        puts "#{winner}" + "is the winner".yellow
+        puts "#{winner}" + " is the winner".yellow
         winner
     end
     

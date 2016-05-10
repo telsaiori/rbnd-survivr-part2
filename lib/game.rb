@@ -12,7 +12,7 @@ class Game
     def immunity_challenge
         lose_tribe = @tribes.sample
         #puts "#{lose_tribe} has lost the immunity challenge and must vote out a member"
-        puts "#{lose_tribe}" + "has lost the immunity challenge and must vote out a member".red
+        puts "#{lose_tribe}" + " has lost the immunity challenge and must vote out a member".red
         lose_tribe
     end
     
